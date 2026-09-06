@@ -7,7 +7,6 @@
 namespace Indication
 {
     constexpr int LED_BASE_BOARD = D13; // светодиод на плате
-    //constexpr int LED_BLUE_WIFI = 16;  // индикация wifi
     constexpr int LED_GREEN_OFF = D9;  // состояние выключено
     constexpr int LED_RED_ON = D10;     // состояние включено
     constexpr int BUZZER = D11;         // звуковая индикация
