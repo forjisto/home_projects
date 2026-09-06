@@ -39,7 +39,6 @@ struct ConfigStateSwitch
 {
     uint16_t on_time = 0;         // время вкоючения
     uint16_t last_swith_time = 0; // время последенего нажатия
-    // uint8_t count = 0;            // счетчик
     bool reading = false;      // текущее сотояние
     bool last_reading = false; // флаг последнего состояния
     bool single = false;       // флаг одиночного нажатия
