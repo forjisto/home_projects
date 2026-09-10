@@ -6,6 +6,8 @@
 namespace Set_sound
 {
     constexpr int DURATION = 1000; // длительность
+    constexpr int DURATION_TONE = 40;
+    constexpr int DURATION_LED= 40;
     constexpr int PAUSE = 100;
     constexpr int FREQ_HZ = 1900; // частота баззера
     constexpr int FREQ_INTERVAL = 300;
